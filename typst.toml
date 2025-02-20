@@ -1,0 +1,11 @@
+[package]
+name = "heig-vd"
+version = "1.0.0"
+entrypoint = "lib.typ"
+authors = ["NATSIIRT"]
+license = "MIT-0"
+description = "A comprehensive Typst template for HEIG-VD students' academic documents, including laboratory reports and bachelor theses"
+
+[template]
+path = "template"
+entrypoint = "main.typ"

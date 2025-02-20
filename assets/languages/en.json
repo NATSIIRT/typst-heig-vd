@@ -1,0 +1,16 @@
+{
+    "professor": "Professor",
+    "professor_plural": "Professors",
+    "assistant": "Assistant",
+    "assistant_plural": "Assistants",
+    "author": "Author",
+    "author_plural": "Authors",
+    "academic_year": "Academic year",
+  
+    "figures_table": "Table of figures",
+    "tables_table": "Table of tables",
+  
+    "author_separator": ", ",
+    "author_conjunction": "and",
+    "chapter": "Chapter"
+  }
