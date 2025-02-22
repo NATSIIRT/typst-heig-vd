@@ -103,12 +103,12 @@
     if items.len() == 0 { return [] }
     if items.len() == 1 { return [#items.first()] }
     if items.len() == 2 {
-      return [#items.first() #dict.author_separator #items.last()]
+      return [#items.first() #dict.author_conjunction #items.last()]
     }
     
     [
       #items.slice(0, -1).join(dict.author_separator)
-      #dict.author_separator
+      #dict.author_conjunction
       #items.last()
     ]
   }
