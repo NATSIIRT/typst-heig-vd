@@ -236,6 +236,7 @@
   set document(author: authors, title: title)
   set text(size: DIMENSIONS.text.default_size)
   set heading(numbering: "1.1")
+  set par(justify: true)
 
   let (dict, lang) = load_language(french)
 
